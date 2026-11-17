@@ -1,0 +1,13 @@
+# 第 1 关必装（5 分钟）
+numpy>=1.26
+pillow>=10.0
+
+# 第 4 关再装（换成真效果，约 600MB + 模型权重）
+# 装的时候加清华镜像，否则很慢：
+#   pip install torch transformers -i https://pypi.tuna.tsinghua.edu.cn/simple
+# torch>=2.4
+# transformers>=4.40
+
+# 第 6 关升级 PostgreSQL + pgvector 才需要
+# psycopg2-binary>=2.9
+# pgvector>=0.3

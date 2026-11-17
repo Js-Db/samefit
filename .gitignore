@@ -1,0 +1,14 @@
+# 虚拟环境
+.venv/
+__pycache__/
+*.py[cod]
+
+# 本地数据库（每次 ingest 都能重新生成）
+data/*.db
+
+# 商品图不入库：有版权，体积也大。clone 下来的人自己准备图片。
+data/images/*
+!data/images/.gitkeep
+
+# 密钥
+.env
