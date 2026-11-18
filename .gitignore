@@ -12,3 +12,7 @@ data/images/*
 
 # 密钥
 .env
+
+# IDE 配置（PyCharm / VS Code 会自己生成，含本机路径，不该进版本库）
+.idea/
+.vscode/
